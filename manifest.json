@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Refreshamster",
+  "description": "I got bored that I have to give an time as an input everytime I turn on the refresher and click the start button either, so I made a super simple hamster",
+  "version": "0.0.1",
+
+  "browser_action": {
+    "default_icon": "./image/icon.png",
+    "default_popup": "popup.html"
+  },
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ]
+}
